@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="netflix.jpg" alt="Netflix Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. anytime.</p>
+            <button>Watch Free for 30 Days</button>
+        </section>
+
+        <section class="movies">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-slider">
+                <!-- Example movie cards or slides -->
+                <div class="movie-card">
+                    <img src="kalki.jpg" alt="Movie 1">
+                    <h3>kalki 2898AD</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="puspha.jpg" alt="Movie 2">
+                    <h3>puspha 2</h3>
+                </div>
+                <!-- Add more movie cards as needed -->
+                 <div class="movie-card">
+                      <img src="pushpaa 1.jpg" alt="Movie 3">
+                      <h3>Puspha 1</h3>
+                 </div>
+                 <div class="movie-card">
+                    <img src="hanuman.jpg" alt="Movie 4">
+                    <h3>Hanuman</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="bahubali 2.jpg" alt="Movie 5">
+                    <h3>Bahubali 1</h3>
+
+                </div>
+                <div class="movie-card">
+                    <img src="salaar.jpg" alt="Movie 6">
+                    <h3>Salaar</h3>
+
+                </div>
+                <div class="movie-card">
+                    <img src="ala vaikunthapuramlo.jpg" alt="Movie 7">
+                    <h3>Ala vaikunthapuramlo</h3>
+                </div>
+                <div class="movie-card">
+                    <img src="bb2.jpg" alt="Movie 8">
+                    <h3>Bahubali 2</h3>
+
+                </div>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Netflix Clone</p>
+    </footer>
+
+    <script src="netflix.js"></script>
+</body>
+</html>
